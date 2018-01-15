@@ -1,0 +1,121 @@
+/* Font */
+@font-face {
+  font-family: "Myriad Set Pro";
+  src: url("fonts/myriad-set-pro_bold.ttf") format("truetype");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Myriad Set Pro";
+  src: url("fonts/myriad-set-pro_semibold.ttf") format("truetype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Myriad Set Pro";
+  src: url("fonts/myriad-set-pro_medium.ttf") format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Myriad Set Pro";
+  src: url("fonts/myriad-set-pro_text.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Myriad Set Pro";
+  src: url("fonts/myriad-set-pro_thin.ttf") format("truetype");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Myriad Set Pro";
+  src: url("fonts/myriad-set-pro_ultralight.ttf") format("truetype");
+  font-weight: 100;
+}
+body {
+  font-family: "Myriad Set Pro","Helvetica Neue","Helvetica","Arial",sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 18px;
+  line-height: 1.45;
+  font-weight: 400;
+  letter-spacing: normal;
+  color: #333;
+}
+
+/* End of Font */
+
+.footer_heading {
+  color: #ff0500;
+  font-size: 21px;
+  margin-bottom: 10px;
+}
+
+.footer_heading p {
+  display: inline-block;
+  /* text-align: center; */
+}
+
+.footer_title a {
+  color: #181818;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.footer_links li {
+  list-style-type: disc;
+  c
+}
+
+.footer li {
+  padding: 15px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.footer a {
+	font-weight: 700;
+	font-size: 18px;
+	color: #181818;
+	text-decoration: none;
+}
+
+.footer a:hover {
+	text-decoration: underline;
+}
+
+.footer li:last-child {
+  padding: 15px;
+  border-bottom: none;
+}
+
+#see_all button{
+  display: inline-block;
+  width: 100%;
+  background-color: #e5e5e5;
+  color: #757575;
+  border: 2px solid #c0c0c0;
+  padding: 2px 6px 3px 6px;
+  margin: 0;
+}
+
+/* .footer_heading {
+  text-align: center;
+} */
+
+.footer_list li {
+	list-style-type: square;
+	list-style-position: inside;
+  color: red;
+}
+
+#see_all {
+  width: 90%;
+}
+
+@media (max-width: 768px) {
+  .footer p li a{
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer p li a{
+    text-align: left;
+  }
+}

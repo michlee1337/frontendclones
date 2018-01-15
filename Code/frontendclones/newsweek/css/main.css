@@ -1,0 +1,105 @@
+/* Font */
+@font-face {
+  font-family: "Myriad Set Pro";
+  src: url("fonts/myriad-set-pro_bold.ttf") format("truetype");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Myriad Set Pro";
+  src: url("fonts/myriad-set-pro_semibold.ttf") format("truetype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Myriad Set Pro";
+  src: url("fonts/myriad-set-pro_medium.ttf") format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Myriad Set Pro";
+  src: url("fonts/myriad-set-pro_text.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Myriad Set Pro";
+  src: url("fonts/myriad-set-pro_thin.ttf") format("truetype");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Myriad Set Pro";
+  src: url("fonts/myriad-set-pro_ultralight.ttf") format("truetype");
+  font-weight: 100;
+}
+body {
+  font-family: "Myriad Set Pro","Helvetica Neue","Helvetica","Arial",sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 18px;
+  line-height: 1.45;
+  font-weight: 400;
+  letter-spacing: normal;
+  color: #333;
+}
+
+/* End of Font */
+
+.img-responsive {
+  width: 100%;
+}
+#article1 {
+	position: relative;
+  background: rgba(255,255,255,0);
+  padding: 0 0 50px 0;
+}
+
+#article1 div {
+	position: absolute;
+  padding-bottom: 20px;
+  width: 100%;
+	bottom: 0;
+  background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,1),rgba(255,255,255,1));
+  border-top: 4px solid #ff0500;
+  padding: inherit;
+}
+
+
+.article {
+  text-align: center;
+  border-bottom: 1px solid #f2f2f2;
+  padding: 15px 30px 25px 30px;
+}
+
+.article a:hover {
+  color: #23527c;
+  text-decoration: underline;
+}
+
+.origin {
+  margin: 20px 0 10px 0;
+}
+
+.origin a {
+  display: block;
+  color: #ff0500;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.title a {
+  color: #000000;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.intro {
+  font-size: 14px;
+}
+
+.sponsor div {
+  background-color: #e6ffff;
+  border: 1px solid #cdf0ff;
+}
+
+.insight {
+  font-size: 30px;
+  font-weight: 500;
+}
